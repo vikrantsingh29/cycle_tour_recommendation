@@ -231,5 +231,3 @@ graph TD
 ## Author 👤
 - **Vikrant Singh**
 
-## License 📜
-This project is licensed under the MIT License - see the LICENSE file for details.
