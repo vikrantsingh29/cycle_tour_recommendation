@@ -1,8 +1,6 @@
 
 # Cycling Tour Recommendation System 🚴
 
-![Cycling](https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjUyOXwwfDF8c2VhcmNofDF8fGN5Y2xpbmd8ZW58MHx8fHwxNjA5OTM5MDc0&ixlib=rb-1.2.1&q=80&w=1080)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -13,6 +11,7 @@
 - [Project Structure](#project-structure)
 - [Flow Diagram](#flow-diagram)
 - [Author](#author)
+- [License](#license)
 
 ## Introduction
 Welcome to the **Cycling Tour Recommendation System**! This project is designed to help cycling enthusiasts find the most suitable cycling routes based on their preferences and requirements. Whether you're a beginner looking for easy trails, a family seeking safe routes, or an experienced rider craving challenging paths, this system has got you covered.
@@ -118,6 +117,8 @@ Here are some sample queries you can try:
   ```
   Find cycling routes that are loop tours available in September.
   ```
+## Sample Map View 🗺️
+![Sample Map View](https://github.com/vikrantsingh29/cycle_tour_recommendation/raw/main/sample_map.png)
 
 ## Technologies Used 🛠️
 - **Python Libraries:**
@@ -160,13 +161,16 @@ graph TD
     D --> E[Present Results to User]
     E --> F[Display Interactive Map]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bbf,stroke:#333,stroke-width:2px
-    style F fill:#f9f,stroke:#333,stroke-width:2px
+    style A fill:#fff,stroke:#000,stroke-width:2px
+    style B fill:#fff,stroke:#000,stroke-width:2px
+    style C fill:#fff,stroke:#000,stroke-width:2px
+    style D fill:#fff,stroke:#000,stroke-width:2px
+    style E fill:#fff,stroke:#000,stroke-width:2px
+    style F fill:#fff,stroke:#000,stroke-width:2px
 ```
 
 ## Author 👤
 - **Vikrant Singh**
+
+## License 📜
+This project is licensed under the MIT License - see the LICENSE file for details.
