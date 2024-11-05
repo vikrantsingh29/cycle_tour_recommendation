@@ -52,11 +52,7 @@ source venv/bin/activate
 # Upgrade pip
 pip install --upgrade pip
 
-# Install required packages
-pip install -r requirements.txt
 ```
-
-If you don't have a `requirements.txt` file, install packages manually:
 
 ```bash
 pip install pandas geopy folium spacy transformers torch nltk scikit-learn
