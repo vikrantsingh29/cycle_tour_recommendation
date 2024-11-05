@@ -116,6 +116,8 @@ Here are some sample queries you can try:
   ```
   Find cycling routes that are loop tours available in September.
   ```
+
+
 ## Sample Map View 🗺️
 ![Sample Map View](https://github.com/vikrantsingh29/cycle_tour_recommendation/blob/main/map.png)
 
@@ -131,6 +133,64 @@ Here are some sample queries you can try:
 - **Machine Learning Models:**
   - **BERT-Based NER:** For extracting entities like locations from user queries.
   - **Zero-Shot Classification (BART):** For determining difficulty levels based on user descriptions.
+ 
+- ** Sample query and output with query processing **
+ ```
+  --- Query 1:-Find cycling routes near Kufstein with route length over 5km suiable for families.
+
+Parsed Criteria: {'type': None, 'location': 'Kufstein', 'user_type': 'family', 'difficulty_levels': None, 'preferred_month': None, 'min_route_length_km': 5.0, 'max_route_length_km': None, 'min_elevation_gain': None, 'max_elevation_gain': None}
+Initial number of tours: 249
+Number of tours after proximity filter: 159
+Number of tours after applying minimum route length (5.0 km): 149
+Number of tours after applying family-specific constraints: 18
+Number of top tours selected: 5
+Matching Cycling Tours:
+
+Tour Name: MTB-Tour 349 Söll-Hintersteiner See
+Route Length: 9.4 km
+Difficulty Level: 1
+Elevation Gain: 430.0 meters
+Tour Type: Single
+Round Trip: No
+Available Months: May, June, July, August, September, October
+Coordinates: Start at (47.50358, 12.19169), End at (47.54254, 12.22356)
+
+Tour Name: Söll - Stallhäusl
+Route Length: 6.1 km
+Difficulty Level: 1
+Elevation Gain: 310.0 meters
+Tour Type: Single
+Round Trip: No
+Available Months: April, May, June, July, August, September, October
+Coordinates: Start at (47.50349, 12.19157), End at (47.48997, 12.14285)
+
+Tour Name: MTB-Tour 350 Söll-Hochsöll
+Route Length: 5.1 km
+Difficulty Level: 1
+Elevation Gain: 480.0 meters
+Tour Type: Single
+Round Trip: No
+Available Months: May, June, July, August, September, October
+Coordinates: Start at (47.50358, 12.19168), End at (47.48099, 12.1981)
+
+Tour Name: Rundfahrt zur Wallfahrtskirche Mariastein
+Route Length: 6.1 km
+Difficulty Level: 1
+Elevation Gain: 148.0 meters
+Tour Type: Single
+Round Trip: Yes
+Available Months: May, June, July, August, September, October
+Coordinates: Start at (47.52646, 12.0537), End at (47.49302, 12.05566)
+
+Tour Name: MTB-Tour 265 Hochsöll-Brixen im Thale
+Route Length: 9.3 km
+Difficulty Level: 1
+Elevation Gain: 200.0 meters
+Tour Type: Single
+Round Trip: No
+Available Months: May, June, July, August, September, October
+Coordinates: Start at (47.48099, 12.1981), End at (47.45026, 12.24609)
+  ```
 
 ## Project Structure 📁
 
