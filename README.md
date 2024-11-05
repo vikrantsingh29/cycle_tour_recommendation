@@ -118,7 +118,7 @@ Here are some sample queries you can try:
   Find cycling routes that are loop tours available in September.
   ```
 ## Sample Map View 🗺️
-![Sample Map View](https://github.com/vikrantsingh29/cycle_tour_recommendation/raw/main/sample_map.png)
+![Sample Map View](https://github.com/vikrantsingh29/cycle_tour_recommendation/blob/main/map.png)
 
 ## Technologies Used 🛠️
 - **Python Libraries:**
