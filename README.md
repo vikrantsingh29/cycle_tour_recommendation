@@ -119,7 +119,7 @@ Here are some sample queries you can try:
 
 
 ## Sample Map View 🗺️
-![Sample Map View](https://github.com/vikrantsingh29/cycle_tour_recommendation/blob/main/map.png)
+![Sample Map View](https://github.com/vikrantsingh29/cycle_tour_recommendation/blob/main/map2.png)
 
 ## Technologies Used 🛠️
 - **Python Libraries:**
