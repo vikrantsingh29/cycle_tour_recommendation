@@ -11,7 +11,6 @@
 - [Project Structure](#project-structure)
 - [Flow Diagram](#flow-diagram)
 - [Author](#author)
-- [License](#license)
 
 ## Introduction
 Welcome to the **Cycling Tour Recommendation System**! This project is designed to help cycling enthusiasts find the most suitable cycling routes based on their preferences and requirements. Whether you're a beginner looking for easy trails, a family seeking safe routes, or an experienced rider craving challenging paths, this system has got you covered.
