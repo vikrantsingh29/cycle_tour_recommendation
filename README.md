@@ -195,7 +195,6 @@ cycling-tour-recommendation/
 │
 ├── Cycling_Tour_Recommendation.ipynb
 ├── cycling_tours.geojson
-├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
