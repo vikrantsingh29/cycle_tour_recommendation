@@ -202,7 +202,6 @@ cycling-tour-recommendation/
 
 - `Cycling_Tour_Recommendation.ipynb`: Main Jupyter Notebook containing the implementation.
 - `cycling_tours.geojson`: GeoJSON file with cycling tour data.
-- `requirements.txt`: List of Python dependencies.
 - `README.md`: Project documentation.
 - `LICENSE`: License information.
 
